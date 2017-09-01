@@ -1,0 +1,2 @@
+baseurl: /jess-site
+exclude: ['README.md']

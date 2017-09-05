@@ -38,6 +38,11 @@ h2 {
 
 
 /**=========MAIN CONTENT SECTION==================================**/
+.changefont {
+
+font-family: 'AppleColorEmoji';
+}
+
 
 #main-box {
   height:90vh;

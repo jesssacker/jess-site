@@ -11,7 +11,7 @@
 
 #gallery-box::before {
 
-  content:"Some Work ☞";
+  content:"Some Work ˅";
   position:relative;
 
   bottom: 13vh;
@@ -80,10 +80,4 @@
 .teamgif {
 
   width:300px !important;
-}
-
-#hamburger:checked ~ .logo-svg-right {
-  fill:white !important;
-  z-index:1001;
-
 }

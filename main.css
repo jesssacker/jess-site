@@ -38,9 +38,9 @@ h2 {
 
 
 /**=========MAIN CONTENT SECTION==================================**/
-.changefont {
+.main-text span {
 
-font-family: 'AppleColorEmoji';
+font-family: 'AppleColorEmoji' !important;
 }
 
 
@@ -105,10 +105,17 @@ font-family: 'AppleColorEmoji';
 
   }
 
+
+
   .main-home-box {
 
       height:70vh !important;
   }
+
+  .main-text span {
+
+  font-size:30px !important;
+}
 
 }
 

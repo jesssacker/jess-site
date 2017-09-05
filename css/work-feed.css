@@ -1,0 +1,83 @@
+.main-gallery-text {
+  font-size:4em;
+  line-height:1em;
+}
+
+.home-gallery-box {
+  height:44vh !important;
+
+}
+
+
+#gallery-box::before {
+
+  content:"Some Work ☞";
+  position:relative;
+
+  bottom: 13vh;
+    margin-top: 6vh;
+
+}
+
+
+
+
+#gallery-box {
+
+
+
+  display:flex;
+  flex-direction:column;
+
+}
+
+#work-row {
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+
+}
+
+#work-preview-img {
+  width:50%;
+  position:relative;
+  bottom:14vh;
+  padding: 0 0 30px 0 ;
+  cursor: pointer;
+
+
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+  animation-duration: 3s;
+
+}
+
+@media only screen and (max-width: 615px) {
+  #work-preview-img {
+    width:70%;
+  }
+
+}
+
+#work-preview-img:hover , #work-preview-img:active   {
+  opacity:.5;
+
+
+}
+
+.home-gallery p {
+  position:relative;
+  bottom:11vh;
+  z-index:1;
+    margin:0 0 5vh 0;
+    color:grey;
+}
+
+.teamgif {
+
+  width:300px !important;
+}

@@ -1,0 +1,123 @@
+/**=========DEFAULT STYLES==================================**/
+@font-face {
+    font-family: 'pt_monoregular';
+    src: url('ptm55ft-webfont.woff2') format('woff2'),
+         url('ptm55ft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+ font-size: 100%;
+ font-family: "pt_monoregular";
+ font-weight:100;
+ text-align:center;
+color:black;
+ padding:0;
+ margin:0;
+ line-height:0;
+
+
+}
+
+
+
+
+h1 {letter-spacing:-1px;}
+
+h2 {
+  font-size:18px;
+  padding: 25px 0;
+}
+
+
+
+.it-txt {font-style:italic;}
+.d-und-txt {text-decoration:underline;}
+
+
+/**=========MAIN CONTENT SECTION==================================**/
+
+#main-box {
+  height:90vh;
+      margin-top: -1vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+
+.main-text {
+
+   font-size: 70px;
+   line-height: 76px;
+    max-width: 922px;
+    opacity: .7;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 1080px) {
+.main-text {
+  font-size: 6vw;
+    line-height: 6.5vw;
+    max-width: 80vw;
+
+  }
+}
+@media only screen and (max-height: 587px) {
+.main-home-box {
+
+    margin: 0px 0 17px! important;
+}
+
+
+.main-text {
+  font-size: 52px;
+    line-height: 60px;
+    max-width: 838px;
+}
+
+}
+
+@media only screen and (max-width: 950px) {
+.main-text {
+  font-size: 37px;
+      line-height: 42px;
+      max-width: 477px;
+
+  }
+}
+
+
+
+@media only screen and (orientation: portrait) {
+.main-text {
+  font-size: 6vw;
+    line-height: 6.5vw;
+    max-width: 80vw;
+
+  }
+
+  .main-home-box {
+
+      height:70vh !important;
+  }
+
+}
+
+@media only screen and (min-width: 1080px) {
+.main-home-box {
+
+    height:100vh !important;
+    margin-top: -3vh !important;
+}
+
+}
+
+.home-box-2 {
+  height:11vh !important;
+  position:relative;
+  bottom:12vh;
+}

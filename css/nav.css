@@ -1,0 +1,180 @@
+
+.nav-flex {
+
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color:pink;
+    z-index:999;
+    opacity:0;
+
+
+}
+
+
+.logo-svg-left {
+
+  position: fixed;
+  width: 10%;
+  right: 0;
+  top: 0;
+  padding: 6% 3%;
+  margin: 0 auto;
+  font-size: 14vh;
+  z-index:1001;
+
+
+
+}
+
+.logo-svg-right {
+
+position: fixed;
+width:5%;
+left:0;
+bottom:0;
+padding: 5% 3%;
+margin:0 auto;
+
+
+
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+.nav-circle {
+
+
+  font-size:13vw;
+
+  position:fixed;
+  -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   color:black;
+
+   right: 0;
+  top:0;
+   padding: 5% 3%;
+
+   z-index:999;
+
+   transition: color .2s ease-out;
+   -moz-transition: color .2s ease-out;
+   -webkit-transition: color .2s ease-out;
+   -o-transition: color .2s ease-out;
+   animation-duration: 3s;
+
+   cursor: pointer !important;
+
+  /** -webkit-animation-name: rotate;
+   -webkit-animation-duration: 3s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-timing-function: linear;**/
+
+
+
+
+  }
+
+
+
+  @media only screen and (orientation:portrait) {
+
+  .logo-svg-left {
+
+
+    padding: 14% 3%;
+
+
+  }
+
+}
+
+
+.main-nav {
+
+  list-style-type: none;
+  color:pink;
+
+}
+
+.main-nav li {
+
+    padding: 0;
+
+}
+
+.main-nav a {
+  font-size:4em;
+  line-height:1.5em;
+  text-decoration:none;
+  color:white;
+
+
+}
+
+
+#hamburger {
+  display:none;
+}
+
+#hamburger:checked ~ .nav-flex {
+  display:flex;
+  position:fixed;
+  top:0;
+  width:100%;
+  opacity:1;
+
+
+}
+
+
+
+#hamburger:checked ~ .side-txt-right{
+  color:white;
+}
+
+#hamburger:checked ~ .side-txt-left{
+  color:white;
+}
+
+
+#hamburger:checked ~ .nav-circle {
+  color:white !important;
+
+}
+
+#hamburger:checked ~ .logo-svg {
+  color:white !important;
+  z-index:1001;
+
+}
+
+
+#hamburger:checked ~ .logo-svg-left {
+  fill:white !important;
+  z-index:1001;
+
+}
+
+
+.nav-circle:hover {
+  color:green !important;
+
+
+}
+
+#hamburger:checked ~ div {
+  display:none;
+
+}

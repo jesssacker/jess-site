@@ -11,7 +11,7 @@
 
 #gallery-box::before {
 
-  content:"Some Work ˅";
+  content:"Some Work ☞";
   position:relative;
 
   bottom: 13vh;

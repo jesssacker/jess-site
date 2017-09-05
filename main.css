@@ -94,8 +94,8 @@ h2 {
 
 @media only screen and (orientation: portrait) {
 .main-text {
-  font-size: 6vw;
-    line-height: 6.5vw;
+  font-size: 8vw;
+    line-height: 8.5vw;
     max-width: 80vw;
 
   }

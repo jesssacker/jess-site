@@ -81,3 +81,9 @@
 
   width:300px !important;
 }
+
+#hamburger:checked ~ .logo-svg-right {
+  fill:white !important;
+  z-index:1001;
+
+}

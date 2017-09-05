@@ -99,9 +99,9 @@ font-family: 'AppleColorEmoji' !important;
 
 @media only screen and (orientation: portrait) {
 .main-text {
-  font-size: 8vw;
-    line-height: 8.5vw;
-    max-width: 80vw;
+  font-size: 6.5vw;
+line-height: 7.5vw;
+max-width: 70vw;
 
   }
 

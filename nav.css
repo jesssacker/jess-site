@@ -1,7 +1,7 @@
 
 .nav-flex {
 
-    height: 100vh;
+    height: 100%;
     display: none;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
 
 }
 
-.logo-svg-right {
+.logo-svg-new {
 
 position: fixed;
 width:5%;
@@ -36,6 +36,7 @@ left:0;
 bottom:0;
 padding: 5% 3%;
 margin:0 auto;
+fill:pink;
 
 
 
@@ -162,9 +163,9 @@ margin:0 auto;
 }
 
 
-#hamburger:checked ~ .logo-svg-right {
-  fill:white !important;
-  z-index:1001;
+#hamburger:checked ~ .logo-svg-new {
+fill:white;
+z-index:1001;
 
 }
 

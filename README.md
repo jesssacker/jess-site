@@ -1,2 +1,0 @@
-# jess-site
-coming soon!

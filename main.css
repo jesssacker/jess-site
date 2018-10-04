@@ -162,6 +162,7 @@ flex-grow:4;
   grid-template-columns: 50% 50%;
   grid-template-rows: 320px 96px 320px 96px;
   margin:0 auto;
+  grid-gap:32px;
 
 
 }
@@ -192,9 +193,9 @@ flex-grow:4;
   grid-row-start: 1;
   grid-row-end: 2;
 
-  background-image: url("assets/placeholder.png");
+  background-color:yellow;
 
-
+  /*background-image: url("assets/placeholder.png");*/
 
 }
 
@@ -211,7 +212,7 @@ flex-grow:4;
   grid-row-start: 1;
   grid-row-end: 2;
 
-  background-color:blue;
+  background-color:lightblue;
 
   /**background-image: url("assets/placeholder.png");**/
 
@@ -250,7 +251,9 @@ flex-grow:4;
   grid-row-start: 3;
   grid-row-end: 4;
 
-  background-image: url("assets/placeholder.png");
+  background-color:lightgreen;
+
+  /*background-image: url("assets/placeholder.png");*/
 
 }
 

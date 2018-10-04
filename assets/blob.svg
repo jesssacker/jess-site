@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="587px" height="930px" viewBox="0 0 587 930" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 6 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="48.8837004%" cy="62.3850288%" fx="48.8837004%" fy="62.3850288%" r="36.6176308%" gradientTransform="translate(0.488837,0.623850),scale(1.000000,0.866135),rotate(180.000000),translate(-0.488837,-0.623850)" id="radialGradient-1">
+            <stop stop-color="#FF6060" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#E23A3A" stop-opacity="0.185745018" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="JessSacker_Resume_1.7-Copy-11" transform="translate(-913.000000, 0.000000)" fill="url(#radialGradient-1)">
+            <path d="M1348.79688,-75.3469694 C1058.26562,107.934901 913,248.427913 913,346.132066 C913,492.688295 1165.24886,515.343923 1165.24886,584.082472 C1165.24886,652.821021 984.702663,844.977881 1234.57255,895.087934 C1401.15247,928.494635 1571.14522,940.391151 1744.55079,930.77748 L1890,-93.6210235 C1691.71668,-160.540341 1569.40955,-194 1523.07861,-194 C1476.74767,-194 1418.65376,-154.44899 1348.79688,-75.3469694 Z" id="Path-6-Copy-2"></path>
+        </g>
+    </g>
+</svg>
